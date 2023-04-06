@@ -172,6 +172,15 @@
     }
   },
   "styles": {
+    "spacing": {
+      "blockGap": "30px",
+      "padding": {
+        "top": "1rem",
+        "right": "1.2rem",
+        "bottom": "1.2rem",
+        "left": "1rem"
+      }
+    },
     "blocks": {
       "core/heading": {
         "color": {
