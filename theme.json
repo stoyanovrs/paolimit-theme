@@ -26,9 +26,19 @@
           "slug": "custom-primary"
         },
         {
+          "slug": "primary-hover",
+          "color": "#FDC500",
+          "name": "Primary"
+        },
+        {
           "color": "#00509d",
           "name": "Secondary",
           "slug": "custom-secondary"
+        },
+        {
+          "slug": "secondary-hover",
+          "color": "#003F88",
+          "name": "Secondary"
         },
         {
           "color": "#00296b",
