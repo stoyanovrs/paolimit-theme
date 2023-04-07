@@ -266,6 +266,15 @@
       "core/site-tagline": {
         "color": {
           "text": "var:preset|color|custom-text-color"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "0.5rem",
+            "top": "0.5rem"
+          }
+        },
+        "typography": {
+          "fontSize": "var:preset|font-size|small"
         }
       },
       "core/site-title": {
