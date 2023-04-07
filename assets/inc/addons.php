@@ -15,3 +15,10 @@ add_action(
     wp_dequeue_style('global-styles');// Wordpress global styles generated from theme.json
   }
 );
+
+/**
+ * Remove oEmbed-specific JavaScript from the front-end and back-end.
+ *
+ * @link https://developer.wordpress.org/reference/functions/wp_oembed_add_host_js/
+ */
+remove_action( 'wp_head', 'wp_oembed_add_host_js' );
