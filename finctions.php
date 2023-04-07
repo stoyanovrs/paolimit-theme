@@ -8,11 +8,7 @@
  * @since 1.0.0
  */
 
-/**
- * 
- * 
- * @since 1.0.0
- */
+
 if ( ! function_exists( 'paolimit_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -29,3 +25,8 @@ function paolimit_setup() {
 }
 endif; // paolimit_setup
 add_action( 'after_setup_theme', 'paolimit_setup' );
+
+// Custom functions
+
+// Filters.
+require_once get_theme_file_path( 'assets/inc/addons.php' );
