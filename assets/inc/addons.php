@@ -43,3 +43,32 @@ add_action( 'init', 'disable_wp_emojicons' );
 function disable_emojicons_tinymce( $plugins ) {
     return is_array( $plugins ) ? array_diff( $plugins, array( 'wpemoji' ) ) : array();
 }
+
+/**
+ * Remove query string from static resources 
+ */
+ 
+function remove_cssjs_ver( $src ) {
+    if ( strpos( $src, '?ver=' ) )
+        $src = remove_query_arg( 'ver', $src );
+    return $src;
+}
+add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
+add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
+
+/**
+ * Modify jQuery
+ */
+
+function modify_jquery() {
+    wp_deregister_script( 'jquery' );
+  
+}
+if (!is_admin()) add_action('wp_enqueue_scripts', 'modify_jquery');
+
+//Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1
+add_action('wp_default_scripts', function ($scripts) {
+    if (!empty($scripts->registered['jquery'])) {
+        $scripts->registered['jquery']->deps = array_diff($scripts->registered['jquery']->deps, ['jquery-migrate']);
+    }
+});
