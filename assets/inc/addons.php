@@ -22,3 +22,5 @@ add_action(
  * @link https://developer.wordpress.org/reference/functions/wp_oembed_add_host_js/
  */
 remove_action( 'wp_head', 'wp_oembed_add_host_js' );
+
+add_action( 'customize_register', '__return_true' );
