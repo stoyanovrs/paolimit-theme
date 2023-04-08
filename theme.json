@@ -11,15 +11,57 @@
     },
     "color": {
       "background": true,
-      "custom": true,
-      "customDuotone": true,
-      "customGradient": true,
-      "defaultGradients": true,
-      "defaultPalette": true,
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
+      "custom": false,
+      "customGradient": false,
+      "customDuotone": false,
       "duotone": [],
       "gradients": [],
-      "link": false,
-      "palette": [],
+      "link": true,
+      "palette": [
+        {
+          "color": "#ffffff",
+          "name": "Foreground",
+          "slug": "foreground"
+        },
+        {
+          "color": "#f9fbfc",
+          "name": "Background",
+          "slug": "background"
+        },
+        {
+          "color": "#ffd500",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "slug": "primary-hover",
+          "color": "#FDC500",
+          "name": "Primary"
+        },
+        {
+          "color": "#00509d",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "slug": "secondary-hover",
+          "color": "#003F88",
+          "name": "Secondary"
+        },
+        {
+          "color": "#00296b",
+          "name": "Heading Color",
+          "slug": "heading-color"
+        },
+        {
+          "color": "#1f202c",
+          "name": "Text Color",
+          "slug": "text-color"
+        }
+      ],
       "text": true
     },
     "custom": {},
@@ -28,7 +70,7 @@
     },
     "layout": {
       "contentSize": "800px",
-      "wideSize": "1000px"
+      "wideSize": "1200px"
     },
     "spacing": {
       "blockGap": null,
