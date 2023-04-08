@@ -180,15 +180,11 @@
     }
   },
   "styles": {
-    "blocks": {
-      "core/block": {
-        "spacing": {
-          "blockGap": "30px",
-          "padding": {
-            "left": "24px",
-            "right": "24px"
-          }
-        }
+    "spacing": {
+      "blockGap": "1,875rem",
+      "padding": {
+        "left": "0,9375rem",
+        "right": "0,9375rem"
       }
     }
   },
