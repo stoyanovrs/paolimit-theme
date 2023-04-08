@@ -4,10 +4,10 @@
   "settings": {
     "appearanceTools": true,
     "border": {
-      "color": false,
-      "radius": false,
-      "style": false,
-      "width": false
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
     },
     "color": {
       "background": true,
@@ -68,6 +68,13 @@
     "dimensions": {
       "minHeight": true
     },
+    "position": {
+      "sticky": true
+    },
+    "shadow": {
+      "defaultPresets": true
+    },
+    "useRootPaddingAwareAlignments": true,
     "layout": {
       "contentSize": "800px",
       "wideSize": "1200px"
