@@ -186,6 +186,9 @@
         "left": "0,9375rem",
         "right": "0,9375rem"
       }
+    },
+    "typography": {
+      "fontFamily": "preset|font-family|inter"
     }
   },
   "customTemplates": {},
