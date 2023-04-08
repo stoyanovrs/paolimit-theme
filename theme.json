@@ -177,7 +177,17 @@
         "spacing": {},
         "typography": {}
       },
-      "core/heading": {}
+      "core/heading": {
+        "appearanceTools": true
+      },
+      "core/block": {
+        "appearanceTools": true,
+        "spacing": {
+          "blockGap": true,
+          "margin": true,
+          "padding": true
+        }
+      }
     }
   },
   "styles": {},
