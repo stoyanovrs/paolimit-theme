@@ -28,5 +28,12 @@ add_action( 'after_setup_theme', 'paolimit_setup' );
 
 // Custom functions
 
+
 // Filters.
 require_once get_theme_file_path( 'assets/inc/addons.php' );
+
+//Protect Your Site from Malicious Requests
+require_once get_theme_file_path( 'assets/inc/protect.php' );
+
+//Disable built-in emojis that loads large JavaScript, CSS and image files
+require_once get_theme_file_path( 'assets/inc/emoji.php' );
