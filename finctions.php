@@ -37,3 +37,6 @@ require_once get_theme_file_path( 'assets/inc/protect.php' );
 
 //Disable built-in emojis that loads large JavaScript, CSS and image files
 require_once get_theme_file_path( 'assets/inc/emoji.php' );
+
+//remove Embded
+require_once get_theme_file_path( 'assets/inc/embded.php' );
