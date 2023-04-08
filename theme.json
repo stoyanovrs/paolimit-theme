@@ -246,6 +246,9 @@
         ":hover": {
           "color": {
             "text": "var:preset|color|secondary-hover"
+          },
+          "typography": {
+            "textDecoration": "underline"
           }
         }
       },
