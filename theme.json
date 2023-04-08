@@ -176,21 +176,18 @@
         "layout": {},
         "spacing": {},
         "typography": {}
-      },
-      "core/heading": {
-        "appearanceTools": true
-      },
-      "core/block": {
-        "appearanceTools": true,
-        "spacing": {
-          "blockGap": true,
-          "margin": true,
-          "padding": true
-        }
       }
     }
   },
-  "styles": {},
+  "styles": {
+    "spacing": {
+      "blockGap": "30px",
+      "padding": {
+        "left": "24px",
+        "right": "24px"
+      }
+    }
+  },
   "customTemplates": {},
   "templateParts": {}
 }
