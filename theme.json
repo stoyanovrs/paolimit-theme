@@ -223,7 +223,19 @@
       "text": "var:preset|color|text-color"
     },
     "typography": {
-      "fontFamily": "var:preset|font-family|inter"
+      "fontFamily": "var:preset|font-family|inter",
+      "fontSize": "var:preset|font-size|small"
+    },
+    "elements": {
+      "heading": {
+        "color": {
+          "text": "var:preset|color|heading-color"
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|inter",
+          "fontWeight": "700"
+        }
+      }
     }
   },
   "customTemplates": {},
