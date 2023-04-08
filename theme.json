@@ -223,7 +223,7 @@
       "text": "var:preset|color|text-color"
     },
     "typography": {
-      "fontFamily": "preset|font-family|inter"
+      "fontFamily": "var:preset|font-family|inter"
     }
   },
   "customTemplates": {},
