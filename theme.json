@@ -235,6 +235,38 @@
           "fontFamily": "var:preset|font-family|inter",
           "fontWeight": "700"
         }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var:preset|font-size|xx-large",
+          "textTransform": "uppercase"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var:preset|font-size|x-large"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var:preset|font-size|large"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var:preset|font-size|medium"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "var:preset|font-size|small"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "var:preset|font-size|small",
+          "textTransform": "uppercase"
+        }
       }
     }
   },
