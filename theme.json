@@ -226,6 +226,14 @@
       "fontFamily": "var:preset|font-family|inter",
       "fontSize": "var:preset|font-size|small"
     },
+    "blocks": {
+      "core/paragraph": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|inter",
+          "fontSize": "var:preset|font-size|small"
+        }
+      }
+    },
     "elements": {
       "heading": {
         "color": {
