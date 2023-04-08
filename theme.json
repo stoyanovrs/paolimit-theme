@@ -219,8 +219,8 @@
       }
     },
     "color": {
-      "background": "var:|preset|color|background",
-      "text": "var:|preset|color|text-color"
+      "background": "var:preset|color|background",
+      "text": "var:preset|color|text-color"
     },
     "typography": {
       "fontFamily": "preset|font-family|inter"
