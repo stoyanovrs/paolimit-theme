@@ -218,6 +218,10 @@
         "right": "var:preset|spacing|30"
       }
     },
+    "color": {
+      "background": "var:|preset|color|background",
+      "text": "var:|preset|color|text-color"
+    },
     "typography": {
       "fontFamily": "preset|font-family|inter"
     }
