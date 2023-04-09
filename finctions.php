@@ -40,3 +40,6 @@ require_once get_theme_file_path( 'assets/inc/emoji.php' );
 
 //remove Embded
 require_once get_theme_file_path( 'assets/inc/embded.php' );
+
+//allow SVG
+require_once get_theme_file_path( 'assets/inc/allow-svg.php' );
