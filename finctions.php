@@ -22,24 +22,22 @@ function paolimit_setup() {
 
 	// Enqueue editor styles.
 	add_editor_style( 'editor-style.css' );
+
 }
 endif; // paolimit_setup
 add_action( 'after_setup_theme', 'paolimit_setup' );
+	// Filters.
+	require_once get_theme_file_path( 'assets/inc/addons.php' );
 
-// Custom functions
+	//Protect Your Site from Malicious Requests
+	require_once get_theme_file_path( 'assets/inc/protect.php' );
 
+	//Disable built-in emojis that loads large JavaScript, CSS and image files
+	require_once get_theme_file_path( 'assets/inc/emoji.php' );
 
-// Filters.
-require_once get_theme_file_path( 'assets/inc/addons.php' );
+	//remove Embded
+	require_once get_theme_file_path( 'assets/inc/embded.php' );
 
-//Protect Your Site from Malicious Requests
-require_once get_theme_file_path( 'assets/inc/protect.php' );
+	//allow SVG
+	require_once get_theme_file_path( 'assets/inc/allow-svg.php' );
 
-//Disable built-in emojis that loads large JavaScript, CSS and image files
-require_once get_theme_file_path( 'assets/inc/emoji.php' );
-
-//remove Embded
-require_once get_theme_file_path( 'assets/inc/embded.php' );
-
-//allow SVG
-require_once get_theme_file_path( 'assets/inc/allow-svg.php' );
