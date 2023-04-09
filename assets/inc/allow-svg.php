@@ -33,12 +33,6 @@ add_filter(
 
 /**
  * Add SVG files mime check.
- *
- * @param array        $wp_check_filetype_and_ext Values for the extension, mime type, and corrected filename.
- * @param string       $file Full path to the file.
- * @param string       $filename The name of the file (may differ from $file due to $file being in a tmp directory).
- * @param string[]     $mimes Array of mime types keyed by their file extension regex.
- * @param string|false $real_mime The actual mime type or false if the type cannot be determined.
  */
 add_filter(
 	'wp_check_filetype_and_ext',
